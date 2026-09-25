@@ -1,0 +1,32 @@
+# R
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj.user
+.Rproj.user/
+
+# RStudio
+*.Rproj
+
+# knitr / rmarkdown
+*_cache/
+*_files/
+*.html
+!README.md
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Data (keep small samples; ignore large downloads)
+*.csv.gz
+*.zip
+*.rds
+shared/datasets/**
+!shared/datasets/.gitkeep
+
+# Secrets
+.env
+*.pem
